@@ -1,0 +1,45 @@
+{
+    "color": {
+        "dominantColorForeground": "Grey",
+        "dominantColorBackground": "Grey",
+        "dominantColors": [
+            "Grey",
+            "Black"
+        ],
+        "accentColor": "132034",
+        "isBwImg": false,
+        "isBWImg": false
+    },
+    "description": {
+        "tags": [
+            "outdoor",
+            "grass",
+            "snow",
+            "walking",
+            "horse",
+            "field",
+            "black",
+            "rain",
+            "standing",
+            "dog",
+            "water",
+            "covered",
+            "sun",
+            "group",
+            "sheep",
+            "herd"
+        ],
+        "captions": [
+            {
+                "text": "a horse that is walking in the rain",
+                "confidence": 0.8165315055911703
+            }
+        ]
+    },
+    "requestId": "ea6f3b73-a5a3-45be-b746-1291d9d28429",
+    "metadata": {
+        "width": 1920,
+        "height": 1080,
+        "format": "Jpeg"
+    }
+}
