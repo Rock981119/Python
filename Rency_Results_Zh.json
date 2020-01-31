@@ -1,0 +1,65 @@
+{
+    "color": {
+        "dominantColorForeground": "White",
+        "dominantColorBackground": "White",
+        "dominantColors": [
+            "White",
+            "Grey",
+            "Black"
+        ],
+        "accentColor": "43832C",
+        "isBwImg": false,
+        "isBWImg": false
+    },
+    "description": {
+        "tags": [
+            "人",
+            "站",
+            "桌子",
+            "女人",
+            "食物",
+            "年轻",
+            "前",
+            "男人",
+            "公园",
+            "绿色",
+            "男孩",
+            "大",
+            "走",
+            "人们",
+            "吃",
+            "电话",
+            "一群",
+            "城市"
+        ],
+        "captions": []
+    },
+    "faces": [
+        {
+            "age": 22,
+            "gender": "Female",
+            "faceRectangle": {
+                "left": 453,
+                "top": 353,
+                "width": 102,
+                "height": 102
+            }
+        },
+        {
+            "age": 37,
+            "gender": "Male",
+            "faceRectangle": {
+                "left": 784,
+                "top": 307,
+                "width": 39,
+                "height": 39
+            }
+        }
+    ],
+    "requestId": "52d2e1f5-193b-43df-96e2-66d0ff198178",
+    "metadata": {
+        "width": 1080,
+        "height": 1080,
+        "format": "Jpeg"
+    }
+}
