@@ -30,15 +30,15 @@ address = vision_service_address + "analyze"
 
 # There are three optional parameters: language, details & visualFeatures
 
-parameters  = {'visualFeatures':'Description,Color',
+parameters  = {'visualFeatures':'Description,Color,Faces',
 
-               'language':'en'}
+               'language':'zh'}
 
 
 
 # Open the image file to get a file object containing the image to analyze
 
-image_path = "./Halloween.jpg"
+image_path = "./Rency.jpg"
 
 image_data = open(image_path, "rb").read()
 
@@ -73,7 +73,7 @@ response.raise_for_status()
 # Display the JSON results returned
 
 results = response.json()
-api_result_path = "./API_Results.txt"
+api_result_path = "./Rency_Results_Zh.json"
 results_file = open(api_result_path,"w")
-results_file = results_file.write(str(json.dumps(results)))
-print(json.dumps(results))
+results_file = results_file.write(str(json.dumps(results,ensure_ascii=False,indent=4)))
+#print(json.dumps(results))
